@@ -16,12 +16,12 @@ public class County extends LitePalSupport {//县类继承LitePalSupport
         this.id = id;
     }
 
-    public String getCountryName() {
+    public String getCountyName() {
         return countyName;
     }
 
-    public void setCountryName(String countryName) {
-        this.countyName = countryName;
+    public void setCountyName(String countyName) {
+        this.countyName = countyName;
     }
 
     public String getWeatherId() {
